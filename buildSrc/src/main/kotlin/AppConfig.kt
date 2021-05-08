@@ -13,7 +13,7 @@ object AppConfig {
         private const val supportVersion = "29.0.0"
         private const val androidXVersion = "1.2.0"
         private const val lifeCycleVersion = "2.2.0"
-        private const val roomVersion = "2.2.6"
+        private const val roomVersion = "2.3.0"
 
         // Android
         const val APP_COMPAT = "androidx.appcompat:appcompat:$androidXVersion"
