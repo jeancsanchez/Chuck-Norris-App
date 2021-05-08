@@ -1,4 +1,4 @@
-package br.com.jeancsanchez.chucknorrisapp.data.remote
+package br.com.jeancsanchez.chucknorrisapp.data.remote.retrofit
 
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonDeserializer

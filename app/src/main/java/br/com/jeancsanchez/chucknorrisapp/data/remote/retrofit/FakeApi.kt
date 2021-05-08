@@ -1,4 +1,4 @@
-package br.com.jeancsanchez.chucknorrisapp.data.remote
+package br.com.jeancsanchez.chucknorrisapp.data.remote.retrofit
 
 import br.com.jeancsanchez.chucknorrisapp.data.dto.ResultDTO
 import br.com.jeancsanchez.chucknorrisapp.model.Fact
