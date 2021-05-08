@@ -15,6 +15,14 @@ android {
         versionCode(1)
         versionName("1.0")
 
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments["room.schemaLocation"] = "$projectDir/schemas"
+                arguments["room.incremental"] = "true"
+                arguments["room.expandProjection"] = "true"
+            }
+        }
+
         testInstrumentationRunner("androidx.test.runner.AndroidJUnitRunner")
     }
 
