@@ -13,6 +13,7 @@ object AppConfig {
         private const val supportVersion = "29.0.0"
         private const val androidXVersion = "1.2.0"
         private const val lifeCycleVersion = "2.2.0"
+        private const val roomVersion = "2.2.6"
 
         // Android
         const val APP_COMPAT = "androidx.appcompat:appcompat:$androidXVersion"
@@ -26,6 +27,11 @@ object AppConfig {
             "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifeCycleVersion"
         const val LIFE_CYCLE_EXTENSIONS =
             "androidx.lifecycle:lifecycle-extensions:$lifeCycleVersion"
+
+        // Room
+        const val ROOM_RUNTIME = "androidx.room:room-runtime:$roomVersion"
+        const val ROOM_COMPILER = "androidx.room:room-compiler:$roomVersion"
+        const val ROOM_TESTING = "androidx.room:room-testing:$roomVersion"
 
         // Koin
         private const val koinVersion = "2.0.1"
@@ -42,7 +48,8 @@ object AppConfig {
         const val RX_JAVA_ADAPTER = "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
         const val RETROFIT_MOCK = "com.squareup.retrofit2:retrofit-mock:$retrofitVersion"
         const val RETROFIT_LOGGING_INTERCEPTOR = "com.squareup.okhttp3:logging-interceptor:4.3.1"
-        const val RETROFIT_ERROR_INTERCEPTOR = "com.github.jeancsanchez:okhttp-rest-error-interceptor:2.1.0"
+        const val RETROFIT_ERROR_INTERCEPTOR =
+            "com.github.jeancsanchez:okhttp-rest-error-interceptor:2.1.0"
 
         // Others
         const val HAWK = "com.orhanobut:hawk:2.0.1"

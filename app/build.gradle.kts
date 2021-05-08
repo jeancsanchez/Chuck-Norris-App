@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     kotlin("android")
+    kotlin("kapt")
 }
 
 android {
@@ -54,7 +55,11 @@ dependencies {
     implementation(AppConfig.Libraries.RETROFIT_ERROR_INTERCEPTOR)
     implementation(AppConfig.Libraries.GSON_CONVERTER)
 
+    implementation(AppConfig.Libraries.ROOM_RUNTIME)
+    kapt(AppConfig.Libraries.ROOM_COMPILER)
+
     testImplementation(AppConfig.TestLibraries.JUNIT)
     testImplementation(AppConfig.TestLibraries.JUNIT_EXTENSION)
+    testImplementation(AppConfig.Libraries.ROOM_TESTING)
     androidTestImplementation(AppConfig.TestLibraries.ESPRESSO)
 }
