@@ -48,6 +48,12 @@ dependencies {
     implementation(AppConfig.Libraries.MATERIAL)
     implementation(AppConfig.Libraries.CONSTRAINT_LAYOUT)
 
+    implementation(AppConfig.Libraries.RETROFIT)
+    implementation(AppConfig.Libraries.RETROFIT_MOCK)
+    implementation(AppConfig.Libraries.RETROFIT_LOGGING_INTERCEPTOR)
+    implementation(AppConfig.Libraries.RETROFIT_ERROR_INTERCEPTOR)
+    implementation(AppConfig.Libraries.GSON_CONVERTER)
+
     testImplementation(AppConfig.TestLibraries.JUNIT)
     testImplementation(AppConfig.TestLibraries.JUNIT_EXTENSION)
     androidTestImplementation(AppConfig.TestLibraries.ESPRESSO)

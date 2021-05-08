@@ -10,7 +10,6 @@ object AppConfig {
 
     object Libraries {
 
-        // Android
         private const val supportVersion = "29.0.0"
         private const val androidXVersion = "1.2.0"
         private const val lifeCycleVersion = "2.2.0"
@@ -42,8 +41,8 @@ object AppConfig {
         const val GSON_CONVERTER = "com.squareup.retrofit2:converter-gson:$retrofitVersion"
         const val RX_JAVA_ADAPTER = "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
         const val RETROFIT_MOCK = "com.squareup.retrofit2:retrofit-mock:$retrofitVersion"
-        const val RETROFIT_LOGGING = "com.squareup.okhttp3:logging-interceptor:4.3.1"
-        const val ERROR_INTERCEPTOR = "com.github.jeancsanchez:okhttp-rest-error-interceptor:2.1.0"
+        const val RETROFIT_LOGGING_INTERCEPTOR = "com.squareup.okhttp3:logging-interceptor:4.3.1"
+        const val RETROFIT_ERROR_INTERCEPTOR = "com.github.jeancsanchez:okhttp-rest-error-interceptor:2.1.0"
 
         // Others
         const val HAWK = "com.orhanobut:hawk:2.0.1"
