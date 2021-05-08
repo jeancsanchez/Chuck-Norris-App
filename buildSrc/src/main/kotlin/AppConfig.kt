@@ -40,6 +40,7 @@ object AppConfig {
         const val KOIN_VIEW_MODEL = "org.koin:koin-androidx-viewmodel:$koinVersion"
         const val KOIN_EXTENSIONS = "org.koin:koin-androidx-ext:$koinVersion"
         const val KOIN_JAVA = "org.koin:koin-java:$koinVersion"
+        const val KOIN_TESTING = "org.koin:koin-test:$koinVersion"
 
         // Retrofit
         private const val retrofitVersion = "2.4.0"

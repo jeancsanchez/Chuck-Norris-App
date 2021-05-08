@@ -9,7 +9,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.*
 
-class Api : AbsApi() {
+class ApiImpl : AbsApi() {
 
     companion object {
         private const val BASE_URL = "https://api.chucknorris.io/"

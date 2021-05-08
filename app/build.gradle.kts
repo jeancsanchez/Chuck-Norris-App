@@ -66,8 +66,15 @@ dependencies {
     implementation(AppConfig.Libraries.ROOM_RUNTIME)
     kapt(AppConfig.Libraries.ROOM_COMPILER)
 
+    implementation(AppConfig.Libraries.KOIN_CORE)
+    implementation(AppConfig.Libraries.KOIN_EXTENSIONS)
+    implementation(AppConfig.Libraries.KOIN_SCOPE)
+    implementation(AppConfig.Libraries.KOIN_JAVA)
+    implementation(AppConfig.Libraries.KOIN_VIEW_MODEL)
+
     testImplementation(AppConfig.TestLibraries.JUNIT)
     testImplementation(AppConfig.TestLibraries.JUNIT_EXTENSION)
     testImplementation(AppConfig.Libraries.ROOM_TESTING)
+    testImplementation(AppConfig.Libraries.KOIN_TESTING)
     androidTestImplementation(AppConfig.TestLibraries.ESPRESSO)
 }

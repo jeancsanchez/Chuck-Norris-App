@@ -4,15 +4,12 @@ import br.com.jeancsanchez.chucknorrisapp.data.dto.ResultDTO
 import br.com.jeancsanchez.chucknorrisapp.data.local.LocalDataSource
 import br.com.jeancsanchez.chucknorrisapp.data.remote.RemoteDataSource
 
-abstract class Repository(
+class RepositoryImpl(
     private val remoteDataSource: RemoteDataSource,
     private val localDataSource: LocalDataSource
-) {
+) : Repository(remoteDataSource, localDataSource) {
 
-    /**
-     * Searches for facts by given query text
-     * @param query text to be searched.
-     * @return a [ResultDTO] object
-     */
-    abstract fun searchFactsByQuery(query: String): ResultDTO
+    override fun searchFactsByQuery(query: String): ResultDTO {
+
+    }
 }
